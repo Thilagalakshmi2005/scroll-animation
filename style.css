@@ -1,0 +1,31 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  overflow-x: hidden;
+}
+
+/* Scroll duration */
+.scroll-section {
+  height: 500vh; /* Controls animation length */
+}
+
+/* Sticky canvas */
+#canvas {
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
+
+/* Extra scroll space */
+.spacer {
+  height: 100vh;
+}
+
